@@ -2,7 +2,7 @@ import pandas as pd
 
 
 def pre_processing():
-    iris_data = pd.read_csv("iris.csv")
+    iris_data = pd.read_csv("resources/iris.csv")
     print(iris_data.head())
 
 
